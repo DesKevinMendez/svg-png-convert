@@ -1,5 +1,5 @@
 {
-  "name": "svg-generator",
+  "name": "svg-png-convert",
   "version": "1.0.0",
   "description": "Project for work with svg in string",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "keywords": [
     "svg"
   ],
+  "repository": "https://github.com/DesKevinMendez/svg-png-convert",
   "author": "Kevin Méndez",
   "license": "MIT",
   "config": {
