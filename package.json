@@ -20,5 +20,8 @@
   "devDependencies": {
     "commitizen": "^4.2.4",
     "git-cz": "^4.8.0"
+  },
+  "dependencies": {
+    "typescript": "^4.4.4"
   }
 }
