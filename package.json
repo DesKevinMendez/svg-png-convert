@@ -1,0 +1,23 @@
+{
+  "name": "svg-generator",
+  "version": "1.0.0",
+  "description": "Project for work with svg in string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "svg"
+  ],
+  "author": "Kevin Méndez",
+  "license": "MIT",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/git-cz"
+    }
+  },
+  "devDependencies": {
+    "commitizen": "^4.2.4",
+    "git-cz": "^4.8.0"
+  }
+}
