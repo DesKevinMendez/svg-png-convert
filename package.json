@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Project for work with svg in string",
   "main": "index.js",
+  "types": "lib",
   "scripts": {
-    "build": "rm -rf build && tsc -p ."
+    "build": "tsc -p ."
   },
   "keywords": [
     "svg"
