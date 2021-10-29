@@ -1,2 +1,5 @@
 /node_modules
+/build
+/examples
 **/*.js
+.DS_Store
