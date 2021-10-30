@@ -2,13 +2,13 @@
   "name": "svg-png-convert",
   "version": "1.0.0",
   "description": "Project for work with svg in string",
-  "main": "index.js",
-  "types": "lib",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc -p ."
   },
   "keywords": [
-    "svg"
+    "svg", "convert", "typescript", "png"
   ],
   "repository": "https://github.com/DesKevinMendez/svg-png-convert",
   "author": "Kevin Méndez",
