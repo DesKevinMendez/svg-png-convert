@@ -40,14 +40,4 @@ const base64SvgToBase64Png = (originalBase64: string, width: number): Promise<st
   });
 }
 
-/**
- * 
- * @param svgXML SVGAElement
- * @param size number
- * @returns Promise<string | null>
- */
-const svgToPng = (svgXML: SVGAElement, size: number): Promise<string | null> => {
-  return base64SvgToBase64Png(svgToSvgBase64(svgXML), size)
-}
-
-export { base64SvgToBase64Png, svgToSvgBase64, svgToPng }
+export { base64SvgToBase64Png, svgToSvgBase64 }
