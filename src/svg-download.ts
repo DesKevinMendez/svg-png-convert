@@ -19,7 +19,7 @@ import { base64SvgToBase64Png, svgToSvgBase64 } from "./svg-convert";
    * @param size number
    * @param svg Node
    * */
-  const downloadPNG =(name: string, size: number, svg: SVGAElement): void => {
+  const downloadSVGasPNG =(name: string, size: number, svg: SVGAElement): void => {
     base64SvgToBase64Png(svgToSvgBase64(svg), size).then((pngSrc) => {
       if (pngSrc) {
         const a = document.createElement('a');
@@ -31,4 +31,4 @@ import { base64SvgToBase64Png, svgToSvgBase64 } from "./svg-convert";
     });
   }
 
-export { downloadSVG, downloadPNG }
+export { downloadSVG, downloadSVGasPNG }

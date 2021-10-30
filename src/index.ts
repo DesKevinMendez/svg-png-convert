@@ -1,4 +1,4 @@
-import { base64SvgToBase64Png, svgToSvgBase64, svgToPng } from './svg-convert'
-import { downloadSVG, downloadPNG } from './svg-download'
+import { base64SvgToBase64Png, svgToSvgBase64 } from './svg-convert'
+import { downloadSVG, downloadSVGasPNG } from './svg-download'
 
-export { base64SvgToBase64Png, svgToSvgBase64, svgToPng, downloadSVG, downloadPNG }
+export { base64SvgToBase64Png, svgToSvgBase64, downloadSVG, downloadSVGasPNG }
