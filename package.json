@@ -11,7 +11,7 @@
     "svg", "convert", "typescript", "png"
   ],
   "repository": "https://github.com/DesKevinMendez/svg-png-convert",
-  "author": "Kevin Méndez",
+  "author": "Kevin Méndez <kevin_mendez30@gmail.com> https://github.com/DesKevinMendez",
   "license": "MIT",
   "config": {
     "commitizen": {
